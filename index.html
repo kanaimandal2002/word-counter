@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Counter Tool</h1>
+        
+        <div class="input-section">
+            <label for="inputText">Paste your text below:</label>
+            <textarea id="inputText" rows="10"></textarea>
+            <button onclick="analyzeText()">Analyze Text</button>
+        </div>
+        
+        <div id="results" class="results-section">
+            <!-- Results will appear here -->
+        </div>
+    </div>
 
+    <script src="script.js"></script>
+</body>
+</html>
