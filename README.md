@@ -26,9 +26,3 @@ You can view a live version of this tool at [https://kanaimandal2002.github.io/w
 3. Paste your text into the text area
 4. Click "Analyze Text" to see the results
 
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
